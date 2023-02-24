@@ -467,3 +467,8 @@ footer p {
     visibility: hidden;
     z-index: -100;
 }
+
+.show-link {
+    visibility: visible;
+    z-index: 100;
+}
