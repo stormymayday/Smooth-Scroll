@@ -436,3 +436,16 @@ nav {
 #services {
     background: var(--white);
 }
+
+footer {
+    background: var(--grey-900);
+    padding: 5rem 1rem;
+}
+
+footer p {
+    color: var(--white);
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: var(--letterSpacing);
+    margin-bottom: 0;
+}
