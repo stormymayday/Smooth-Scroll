@@ -276,11 +276,12 @@ ul {
 
 /* title end */
 
-/*
-=============== 
-Navbar
-===============
-*/
+header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
+        url(./main.jpeg) center/cover no-repeat;
+}
+
 nav {
     background-color: var(--white);
     padding: 1rem 1.5rem;
@@ -378,4 +379,42 @@ nav {
         padding: 0;
     }
 
+}
+
+.banner {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.container h1 {
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.container p {
+    color: var(--white);
+    max-width: 25rem;
+    margin: 0 auto;
+    margin-bottom: 1.25rem;
+}
+
+.btn-white {
+    text-transform: uppercase;
+    background: transparent;
+    transition: var(--transition);
+    font-size: 0.875rem;
+    border: 2px solid var(--black);
+    cursor: pointer;
+    border-radius: var(--borderRadius);
+    color: var(--white);
+    border-color: var(--white);
+    border-radius: 0;
+    padding: 0.5rem 1rem;
+}
+
+.btn-white:hover {
+    color: var(--white);
+    background: var(--black);
 }
