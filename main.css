@@ -266,6 +266,10 @@ ul {
     text-align: center;
 }
 
+.title span {
+    color: var(--primary-500);
+}
+
 .title-underline {
     background-color: var(--primary-500);
     width: 7rem;
@@ -417,4 +421,8 @@ nav {
 .btn-white:hover {
     color: var(--white);
     background: var(--black);
+}
+
+.section {
+    padding-bottom: 5rem;
 }
