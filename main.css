@@ -449,3 +449,21 @@ footer p {
     letter-spacing: var(--letterSpacing);
     margin-bottom: 0;
 }
+
+.top-link {
+    font-size: 1.25rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    background: var(--clr-secondary);
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    border-radius: var(--radius);
+    color: var(--clr-white);
+    animation: bounce 2s ease-in-out infinite;
+
+    visibility: hidden;
+    z-index: -100;
+}
