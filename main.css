@@ -426,3 +426,13 @@ nav {
 .section {
     padding-bottom: 5rem;
 }
+
+#about,
+#services,
+#tours {
+    height: 80vh;
+}
+
+#services {
+    background: var(--white);
+}
