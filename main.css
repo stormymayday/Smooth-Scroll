@@ -291,6 +291,16 @@ nav {
     padding: 1rem 1.5rem;
 }
 
+/* fixed nav */
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--white);
+    box-shadow: var(--shadow-2);
+}
+
 .nav-header {
     display: flex;
     align-items: center;
