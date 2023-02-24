@@ -483,11 +483,12 @@ header {
 footer {
     background: var(--grey-900);
     padding: 5rem 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 footer p {
     color: var(--white);
-    text-align: center;
     text-transform: capitalize;
     letter-spacing: var(--letterSpacing);
     margin-bottom: 0;
