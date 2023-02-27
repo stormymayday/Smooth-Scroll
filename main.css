@@ -328,8 +328,8 @@ nav {
 
 /* Links are hidden by default */
 .links {
+    /* margin: 0; */
     /* height: 0;
-    margin: 0;
     overflow: hidden;
     transition: var(--transition); */
 }
@@ -405,6 +405,7 @@ nav {
     }
 
     .links a {
+        color: var(--white);
         padding: 0;
         margin: 0 0.5rem;
     }
