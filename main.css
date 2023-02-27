@@ -416,7 +416,6 @@ nav {
 
     .links a:hover {
         color: var(--grey-700);
-        background-color: transparent;
         padding: 0;
     }
 
