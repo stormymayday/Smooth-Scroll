@@ -468,7 +468,6 @@ header {
 }
 
 .btn-white:hover {
-    color: var(--white);
     background: var(--black);
 }
 
