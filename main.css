@@ -316,6 +316,7 @@ nav {
     transform: rotate(90deg);
 }
 
+/* Links are hidden by default */
 .links-container {
     height: 0;
     overflow: hidden;
@@ -324,14 +325,6 @@ nav {
 
 .show-links {
     height: 200px;
-}
-
-/* Links are hidden by default */
-.links {
-    /* margin: 0; */
-    /* height: 0;
-    overflow: hidden;
-    transition: var(--transition); */
 }
 
 .links a {
