@@ -395,6 +395,10 @@ nav {
         display: none;
     }
 
+    .logo span {
+        color: var(--white);
+    }
+
     .links-container {
         height: auto !important;
     }
