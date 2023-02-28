@@ -9,6 +9,11 @@ const links = document.querySelector('.links');
 
 navToggle.addEventListener('click', function () {
 
-    linksContainer.classList.toggle('show-links');
+    // Static number of links (200px height)
+    // linksContainer.classList.toggle('show-links');
+
+    const containerHeight = linksContainer.getBoundingClientRect();
+
+    console.log(containerHeight);
 
 }); 
