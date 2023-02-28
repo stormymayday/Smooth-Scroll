@@ -12,10 +12,14 @@ navToggle.addEventListener('click', function () {
     // Static number of links (200px height)
     // linksContainer.classList.toggle('show-links');
 
-    const containerHeight = linksContainer.getBoundingClientRect();
+    const containerHeight = linksContainer.getBoundingClientRect().height;
 
-    const linksHeight = links.getBoundingClientRect().height;
+    const linksHeight = links.getBoundingClientRect().height + 20;
 
-    console.log(linksHeight);
+    if (containerHeight === 0) {
+        linksContainer.style.height = `${linksHeight}px`;
+    } else {
+        linksContainer.style.height = 0;
+    }
 
 }); 

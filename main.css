@@ -318,6 +318,7 @@ nav {
 
 /* Links are hidden by default */
 .links-container {
+    margin: 0;
     height: 0;
     overflow: hidden;
     transition: var(--transition);
