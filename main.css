@@ -10,6 +10,7 @@
 html {
     /*16px*/
     font-size: 100%;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -497,6 +498,7 @@ footer p {
     margin-bottom: 0;
 }
 
+/* Back to Top */
 .top-link {
     font-size: 1.25rem;
     position: fixed;
