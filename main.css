@@ -362,6 +362,10 @@ nav {
     color: var(--primary-500);
 }
 
+.fixed-nav .logo span {
+    color: var(--primary-500);
+}
+
 /* .fixed-nav .links-container {
     height: auto !important;
 } */
