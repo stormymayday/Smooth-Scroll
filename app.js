@@ -22,4 +22,11 @@ navToggle.addEventListener('click', function () {
         linksContainer.style.height = 0;
     }
 
-}); 
+});
+
+// Fixed Navbar
+window.addEventListener('scroll', function () {
+
+    console.log(this.window.pageYOffset);
+
+});
