@@ -30,6 +30,9 @@ const topLink = document.querySelector('.top-link');
 
 window.addEventListener('scroll', function () {
 
-    console.log(navbar, topLink);
+    const scrollHeight = window.pageYOffset;
+    const navHeight = navbar.getBoundingClientRect().height;
+
+    console.log(scrollHeight, navHeight);
 
 });
