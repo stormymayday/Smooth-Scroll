@@ -25,8 +25,11 @@ navToggle.addEventListener('click', function () {
 });
 
 // Fixed Navbar
+const navbar = document.getElementById('nav');
+const topLink = document.querySelector('.top-link');
+
 window.addEventListener('scroll', function () {
 
-    console.log(this.window.pageYOffset);
+    console.log(navbar, topLink);
 
 });
