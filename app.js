@@ -24,7 +24,7 @@ navToggle.addEventListener('click', function () {
 
 });
 
-// Fixed Navbar
+// Fixed Navbar & Back to Top Button
 const navbar = document.getElementById('nav');
 const topLink = document.querySelector('.top-link');
 
@@ -33,12 +33,18 @@ window.addEventListener('scroll', function () {
     const scrollHeight = window.pageYOffset;
     const navHeight = navbar.getBoundingClientRect().height;
 
+    // Fixed Navbar
     if (scrollHeight > navHeight) {
-
         navbar.classList.add('fixed-nav');
-
     } else {
         navbar.classList.remove('fixed-nav');
+    }
+
+    // Back to Top Button
+    if (scrollHeight > 500) {
+        topLink.classList.add('show-link');
+    } else {
+        topLink.classList.remove('show-link');
     }
 
 });
