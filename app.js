@@ -57,8 +57,11 @@ scrollLinks.forEach(function (link) {
 
         event.preventDefault();
 
+        // Getting href value and slicing of the '#'
         const id = event.currentTarget.getAttribute('href').slice(1);
-        console.log(id);
+
+        // Getting the element
+        const element = document.getElementById(id);
 
 
     });
