@@ -57,6 +57,10 @@ scrollLinks.forEach(function (link) {
 
         event.preventDefault();
 
+        const id = event.currentTarget.getAttribute('href');
+        console.log(id);
+
+
     });
 
 });
