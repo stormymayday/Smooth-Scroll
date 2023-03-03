@@ -57,7 +57,7 @@ scrollLinks.forEach(function (link) {
 
         event.preventDefault();
 
-        const id = event.currentTarget.getAttribute('href');
+        const id = event.currentTarget.getAttribute('href').slice(1);
         console.log(id);
 
 
