@@ -72,6 +72,9 @@ scrollLinks.forEach(function (link) {
             top: position
         });
 
+        // Closing the Navbar Links on the small screen
+        linksContainer.style.height = 0;
+
     });
 
 });
