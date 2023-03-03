@@ -55,15 +55,16 @@ scrollLinks.forEach(function (link) {
 
     link.addEventListener('click', function (event) {
 
+        // Preventing default scroll behaviour
         event.preventDefault();
 
-        // Getting href value and slicing of the '#'
+        // Getting href value (id) and slicing of the '#'
         const id = event.currentTarget.getAttribute('href').slice(1);
 
         // Getting the element uisng the id
         const element = document.getElementById(id);
 
-        // Getting position of the element 'offsetTop'
+        // Getting position of the element
         let position = element.offsetTop;
 
         // Scrolling to the element's position
