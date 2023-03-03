@@ -65,8 +65,12 @@ scrollLinks.forEach(function (link) {
 
         // Getting position of the element 'offsetTop'
         let position = element.offsetTop;
-        console.log(position);
 
+        // Scrolling to the element's position
+        window.scrollTo({
+            left: 0,
+            top: position
+        });
 
     });
 
