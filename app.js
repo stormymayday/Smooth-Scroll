@@ -60,8 +60,12 @@ scrollLinks.forEach(function (link) {
         // Getting href value and slicing of the '#'
         const id = event.currentTarget.getAttribute('href').slice(1);
 
-        // Getting the element
+        // Getting the element uisng the id
         const element = document.getElementById(id);
+
+        // Getting position of the element 'offsetTop'
+        let position = element.offsetTop;
+        console.log(position);
 
 
     });
