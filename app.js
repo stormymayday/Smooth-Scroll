@@ -73,8 +73,8 @@ scrollLinks.forEach(function (link) {
         // Checking if the Navbar has the class of fixed-nav
         const fixedNav = navbar.classList.contains('fixed-nav');
 
-        // Getting position of the element
-        let position = element.offsetTop;
+        // Getting position of the element minus height of the Navbar
+        let position = element.offsetTop - navHeight;
 
         // Scrolling to the element's position
         window.scrollTo({
