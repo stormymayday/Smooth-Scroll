@@ -76,6 +76,11 @@ scrollLinks.forEach(function (link) {
         // Getting position of the element minus height of the Navbar
         let position = element.offsetTop - navHeight;
 
+        // Getting the position if Navbar is not fixed
+        if (!fixedNav) {
+            position = position - navHeight;
+        }
+
         // Scrolling to the element's position
         window.scrollTo({
             left: 0,
