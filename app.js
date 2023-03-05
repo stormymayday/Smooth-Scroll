@@ -86,8 +86,6 @@ scrollLinks.forEach(function (link) {
             position = position + linksContainerHeight;
         }
 
-        console.log(navHeight);
-
         // Scrolling to the element's position
         window.scrollTo({
             left: 0,
