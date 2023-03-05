@@ -64,6 +64,10 @@ scrollLinks.forEach(function (link) {
         // Getting the element uisng the id
         const element = document.getElementById(id);
 
+        // Calculating the Navbar height
+        const navHeight = navbar.getBoundingClientRect().height;
+        console.log(navHeight);
+
         // Getting position of the element
         let position = element.offsetTop;
 
