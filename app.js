@@ -81,6 +81,11 @@ scrollLinks.forEach(function (link) {
             position = position - navHeight;
         }
 
+        // Getting position of the element if Links Container is open on smaller screens
+        if (navHeight > 82) {
+            position = position + linksContainerHeight;
+        }
+
         // Scrolling to the element's position
         window.scrollTo({
             left: 0,
