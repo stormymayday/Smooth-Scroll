@@ -69,7 +69,9 @@ scrollLinks.forEach(function (link) {
 
         // Getting the Links Container height
         const linksContainerHeight = linksContainer.getBoundingClientRect().height;
-        console.log(linksContainerHeight);
+
+        // Checking if the Navbar has the class of fixed-nav
+        const fixedNav = navbar.classList.contains('fixed-nav');
 
         // Getting position of the element
         let position = element.offsetTop;
